@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1676189957631159614
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1676189957631159608}
+  - component: {fileID: 1676189957631159615}
+  - component: {fileID: 1676189957631159609}
+  - component: {fileID: 1676189957631159610}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1676189957631159608
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1676189957631159614}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.3454041, y: 1.8429165, z: 0.79214096}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1676189957631159615
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1676189957631159614}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8eeda5e05298e43b788abab1458d30cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tiredSprites:
+  - {fileID: 21300000, guid: 3a94ebc8b26c04eef80beaf5aadba47b, type: 3}
+  - {fileID: 21300000, guid: 819baca1e22424b0dbf4c1c6f65302e9, type: 3}
+  - {fileID: 21300000, guid: 089d8495871ea4d928b0a0b962ec83ac, type: 3}
+  - {fileID: 21300000, guid: c38e5a9dadae1460dad1a511908a4cb7, type: 3}
+  - {fileID: 21300000, guid: 256de4553c5d44d21acc223d99360fe6, type: 3}
+  panelImage: {fileID: 0}
+  dreamBubbles:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  countdownSet: 0.25
+--- !u!114 &1676189957631159609
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1676189957631159614}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36bc942182567406db4e0eaf53c7f8db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  charCtrl: {fileID: 0}
+  pauseMenu: {fileID: 2761144112678103570, guid: a9a9c17a9f35141999965a0653bea241,
+    type: 3}
+  gameInfoTexts: {fileID: 0}
+  sprintText: {fileID: 0}
+  sleepyImage: {fileID: 21300000, guid: 256de4553c5d44d21acc223d99360fe6, type: 3}
+  scaredSprites:
+  - {fileID: 21300000, guid: 8f2f0d2a0c58844748a495834757a802, type: 3}
+  - {fileID: 21300000, guid: a64a4a010c0e44c4c9ab23e760b19dc7, type: 3}
+  - {fileID: 21300000, guid: fbeada05a025c42579917bcc40210310, type: 3}
+  - {fileID: 21300000, guid: a878eb437bb4d420ba0c571248ee9ef2, type: 3}
+  - {fileID: 21300000, guid: c1602a7f6fcf7403c8a80a8bfdaf64f4, type: 3}
+  gamePanel: {fileID: 3570105179496553571, guid: 5ea76c1081faf4c01adcdcf59b17b8e1,
+    type: 3}
+  endGamePanel: {fileID: 6763138067615654040, guid: 7e6c8f2402bff4187b7a635aa153462a,
+    type: 3}
+  countdownSet: 0.25
+  pauseEndGameButton: {fileID: 0}
+  resumeGameButton: {fileID: 0}
+  pauseInfoButton: {fileID: 0}
+  pauseRetryGameButton: {fileID: 0}
+--- !u!114 &1676189957631159610
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1676189957631159614}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edf5b5dfdd4c74f4b837700cb6850c15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cameras:
+  - {fileID: 0}
+  - {fileID: 0}

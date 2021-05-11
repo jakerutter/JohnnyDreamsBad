@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - LightOrb
+  - OverOrbLight
+  - Door
+  - Wraith
+  - Floor
+  - Warning
+  - Dreamscape1
+  - Results
+  - GameManager
+  - Dreamscape2
+  - LightOrb2
+  - SprintText
+  - GamePanel
+  - SprintCanvas
+  - CamController
+  - EndGameCanvas
+  - StaticUI
+  - WaterSpout
+  - RedOrb
+  - WhiteOrb
+  - BlueOrb
+  - RedCheck
+  - WhiteCheck
+  - BlueCheck
+  - ChallengeText
+  - RetryButton
+  - HintText
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Warning
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
